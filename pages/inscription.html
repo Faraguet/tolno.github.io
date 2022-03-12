@@ -1,0 +1,132 @@
+<html lang="fr">
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Mon book | Inscription</title>
+<style>
+	#bar {
+		height: 100px;
+		background-color: #3c5a99;
+		color: #d9dfeb;
+		padding: 4px;
+	}
+
+	#btn_inscire {
+		background-color: #42b72a;
+		width: 100px;
+		text-align: center;
+		float: right;
+		padding: 4px;
+		border-radius: 4px;
+	}
+
+	#bar2 {
+		background-color: #fff;
+		width: 800px;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+		padding-top: 50px;
+		padding: 10px;
+		font-weight: bold;
+	}
+
+	#text {
+		height: 40px;
+		width: 300px;
+		border-radius: 4px;
+		padding: 4px;
+		font-size: 14px;
+		border: solid 1px #ccc;
+	}
+
+	#genre
+	{
+		height: 40px;
+		width: 310px;
+		border-radius: 4px;
+		padding: 4px;
+		font-size: 14px;
+		border: solid 1px #ccc;
+		background-color: #fff;
+	}
+
+	#aremplir
+	{
+		height: 40px;
+		width: 100px;
+		border-radius: 4px;
+		padding: 4px;
+		font-size: 14px;
+		border: solid 1px #ccc;
+		background-color: #fff;
+	}
+
+	#boutton {
+         height: 40px;
+         width: 300px;
+         background-color: rgb(59, 89, 152);
+         color: white;
+         font-weight: bolder;
+         border: none;
+         border-radius: 4px;
+
+    }
+
+
+</style>
+</head>
+
+
+
+<body style="background-color: #e9ebee;font-family: tahoma;">
+
+	<div id="bar">
+
+		<div style="font-size: 40px;">
+			Monbook
+		</div>
+
+		<div id="btn_inscire">
+			Se connecter
+		</div>
+
+	</div>
+
+	 <div id="bar2">
+		S'inscrire à Monbook <br><br>
+
+
+		<form method="post" action="inscription.php">
+
+					<input type="text" id="text" placeholder="Entrez votre Prénom" name="prenom"> <br><br>
+					<input type="text" id="text" placeholder="Entrez votre Nom" name="nom"> <br><br>
+
+					<span style="font-weight: normal;">Genre:</span><br>
+					<select id="text" name="genre">
+						<option></option>
+						<option>Homme</option>
+						<option>Femme</option>
+					</select>
+			        <br><br>
+
+
+
+					<inputw type="text" id="text" placeholder="Entrez votre Email" name="email"> <br><br>
+
+					<input type="password" id="text" placeholder="Mot de Passe"name="password"> <br><br>
+					<input type="password" id="text" placeholder="Confirmer Mot de Passe"name="password2"> <br><br>
+
+					<input type="submit" id="boutton" value="S'inscrire">
+					<br><br><br>
+
+		</form>
+
+
+
+	</div>
+
+</body>
+
+</html>
